@@ -15,7 +15,7 @@
      If the endpoint ever fails, the form automatically falls back to a
      pre filled WhatsApp order so no lead is ever lost.
   --------------------------------------------------------- */
-  var FORM_ENDPOINT = 'https://formspree.io/f/theformulate.co@gmail.com';
+  var FORM_ENDPOINT = 'https://formspree.io/f/xppzlgpr';
   var WHATSAPP      = '+8801617226321';
 
   var $  = function (s, c) { return (c || document).querySelector(s); };
