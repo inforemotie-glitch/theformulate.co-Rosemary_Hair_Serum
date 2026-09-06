@@ -44,7 +44,7 @@ function validPhoneBD(raw) {
 /* ---------- Delivery channels ---------- */
 
 async function deliverFormspree(order) {
-  const id = process.env.FORMSPREE_FORM_ID;
+  const id = process.env.xppzlgpr;
   if (!id) return null;
 
   const res = await fetch('https://formspree.io/f/xppzlgpr' + id, {
