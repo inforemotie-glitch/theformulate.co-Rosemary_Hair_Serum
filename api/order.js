@@ -47,7 +47,7 @@ async function deliverFormspree(order) {
   const id = process.env.FORMSPREE_FORM_ID;
   if (!id) return null;
 
-  const res = await fetch('https://formspree.io/f/' + id, {
+  const res = await fetch('https://formspree.io/f/xppzlgpr' + id, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
     body: JSON.stringify({
